@@ -1,0 +1,120 @@
+  #ARITHMETIC OPERATORS
+print(45//9)
+print(5**2)
+print(5*2)
+print(5%2)
+  #FOR COMPARISION
+print(3==2)
+   # or operator
+age=(19>25 or 25<19)
+print(age)
+age=(55<35 and 35<55)
+print(age)
+  #IF ELSE STATEMENT
+age=19
+if age>18:
+    print("you are and adult")
+    print("you can vote")
+   #FOR IF AND ELSE CONDITION
+age=6
+if age>=18:
+    print("you are an idiot")
+    
+elif age>18 and age<25:
+    print("who you are")
+    
+else:
+    print("you are in mnnit")
+****THIS ONE IS FOR ELSE CONDITION
+    #
+age=6
+if age>=18:
+    print("you are an idiot")
+    
+elif age<18 and age<25:
+    print("who you are")
+    
+else:
+    print("you are in mnnit")
+    *****THIS ONE IS FOR ELIF CONDITION
+    #
+age=19
+if age>=18:
+    print("you are an idiot")
+    
+elif age<18 and age<25:
+    print("who you are")
+    
+else:
+    print("you are in mnnit")
+******THIS IS FOR IF CONDITION
+#HOW TO CREATE A CALCULATOR
+
+first=input("enter first number:")
+operator=input("enter operator (+ , - , * , / , %):")
+second=input("enter second number:")
+
+first= int(first)
+second= int(second)
+
+if operator=="+":
+    print(first + second)
+elif operator=="-":
+    print(first - second)
+elif operator=="*":
+    print(first * second)
+elif operator=="/":
+    print(first / second)
+elif operator=="%":
+    print(first % second)
+else:
+    print("invalid operation")
+#HOW TO CREATE A CALCULATOR
+
+first=input("enter first number:")
+operator=input("enter operator (+ , - , * , / , %):")
+second=input("enter second number:")
+
+first= int(first)
+second= int(second)
+
+if operator=="+":
+    print(first + second)
+elif operator=="-":
+    print(first - second)
+elif operator=="*":
+    print(first * second)
+elif operator=="/":
+    print(first / second)
+elif operator=="%":
+    print(first % second)
+else:
+    print("invalid operation")
+        #HOW TO CREATE A CALCULATOR
+
+first=input("enter first number:")
+operator=input("enter operator (+ , - , / , % ,*):")
+second=input("enter second number:")
+
+first=int(first)
+second=int(second)
+
+if operator=="+":
+    print(first + second)
+elif operator=="-":
+    print(first - second)
+elif operator=="*":
+    print(first * second)
+elif operator=="/":
+    print(first / second)
+elif operator=="%":
+    print(first % second)
+else:
+    print("invalid operation")
+
+    
+    
+   
+
+
+
